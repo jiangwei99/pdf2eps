@@ -25,6 +25,10 @@ for example,
 1. TeXLive
 2. If your `pdftops` command is not found , you must install `poppler`.
 
+
+## Build  exe 
+`pyinstaller -F -w -i picture.ico main.py`
+
 ## License
 
 The code is based on Herbert's accepted answer. You can found [here](https://tex.stackexchange.com/questions/20883/how-to-convert-pdf-to-eps).
